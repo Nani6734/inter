@@ -40,9 +40,11 @@ func main() {
 
 	fmt.Println("Using SUV:")
 	useCar(suv)
+
 }
 
 func useCar(c Car) {
 	c.Start()
 	c.Stop()
+
 }
